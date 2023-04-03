@@ -3326,3 +3326,20 @@ body.is-touch .poptrox-popup .closer {
     padding-left: 0;
   }
 }
+
+/* make it more accessible */
+#header h1,
+#footer .copyright,
+#footer .icons a,
+.button {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body,
+h3 {
+  color: hsl(0, 0%, 45%) !important;
+}
+
+a {
+  color: hsl(163, 48%, 30%);
+}

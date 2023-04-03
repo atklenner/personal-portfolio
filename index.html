@@ -147,13 +147,16 @@
           <form method="post" action="https://formspree.io/f/xjvllqbw">
             <div class="row gtr-uniform gtr-50">
               <div class="col-6 col-12-xsmall">
-                <input type="text" name="name" id="name" placeholder="Name" />
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
               </div>
               <div class="col-6 col-12-xsmall">
-                <input type="email" name="email" id="email" placeholder="Email" />
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
               </div>
               <div class="col-12">
-                <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="4"></textarea>
               </div>
               <div class="col-4">
                 <input type="submit" value="Send Message" />
