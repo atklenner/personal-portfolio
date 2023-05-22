@@ -3336,8 +3336,10 @@ body.is-touch .poptrox-popup .closer {
 }
 
 body,
+label,
+h2,
 h3 {
-  color: hsl(0, 0%, 45%) !important;
+  color: hsl(0, 0%, 40%) !important;
 }
 
 a {
